@@ -23,10 +23,10 @@ npm install underscore.template
 var UnderscoreTemplate = require('underscore.template');
 var template = UnderscoreTemplate("<b><%- value %></b>");
 
-template({value: 'hello world!'});
-// <b>hello world!</b>
+template({value: 'hello world'});
+// <b>hello world</b>
 
-template({value: '<script>'});
+template({value: '<script>'});pdat
 // <b>&lt;script&gt;</b>
 ```
 
