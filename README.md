@@ -1,5 +1,5 @@
 # underscore.template
-> Extracted template from [Underscore](http://underscorejs.org/).
+> Extracted template from [Underscore](http://underscorejs.org/), use `_.template` without full underscore source.
 
 [![Build Status](https://travis-ci.org/superRaytin/underscore.template.svg?branch=master)](https://travis-ci.org/superRaytin/underscore.template)
 [![NPM version][npm-image]][npm-url]
