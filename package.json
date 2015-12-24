@@ -1,7 +1,7 @@
 {
   "name": "underscore.template",
-  "version": "0.1.1",
-  "description": "Extracted template from Underscore",
+  "version": "0.1.2",
+  "description": "Extracted template from Underscore, use '_.template' without full underscore source.",
   "main": "lib/index.js",
   "license": "MIT",
   "bugs": {
@@ -14,6 +14,7 @@
     "templating",
     "underscore.template",
     "underscore-template",
+    "underscore template",
     "underscore",
     "micro templating"
   ],
