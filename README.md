@@ -1,9 +1,9 @@
 # underscore.template
 > Extracted template from [Underscore](http://underscorejs.org/), use `_.template` without full underscore source.
 
-[![Build Status](https://travis-ci.org/superRaytin/underscore.template.svg?branch=master)](https://travis-ci.org/superRaytin/underscore.template)
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
+[![Build Status](https://travis-ci.org/superRaytin/underscore.template.svg?branch=master)](https://travis-ci.org/superRaytin/underscore.template)
 
 [![underscore.template](https://nodei.co/npm/underscore.template.png)](https://npmjs.org/package/underscore.template)
 
@@ -26,7 +26,7 @@ var template = UnderscoreTemplate("<b><%- value %></b>");
 template({value: 'hello world'});
 // <b>hello world</b>
 
-template({value: '<script>'});pdat
+template({value: '<script>'});
 // <b>&lt;script&gt;</b>
 ```
 
