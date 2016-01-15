@@ -17,7 +17,9 @@
 npm install underscore.template
 ```
 
-# Quick Start
+# Usage
+
+### Node.js
 
 ```js
 var UnderscoreTemplate = require('underscore.template');
@@ -28,6 +30,21 @@ template({value: 'hello world'});
 
 template({value: '<script>'});
 // <b>&lt;script&gt;</b>
+```
+
+### Browser
+
+Simply download the latest minified version from the `dist/` folder. API is available in a global object called `UnderscoreTemplate`.
+
+```html
+<script src="./dist/underscore.template.js"></script>
+```
+
+```js
+var template = UnderscoreTemplate("<b><%- value %></b>");
+
+template({value: 'hello world'});
+// <b>hello world</b>
 ```
 
 # Testing
