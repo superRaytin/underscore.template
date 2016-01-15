@@ -5,11 +5,11 @@
     "sourceType": "module"
   },
   "env": {
-    "amd": false,
+    "amd": true,
     "jasmine": false,
     "node": true,
     "mocha": true,
-    "browser": false,
+    "browser": true,
     "builtin": true,
     "es6": true
   },
