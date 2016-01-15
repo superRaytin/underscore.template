@@ -1,0 +1,16 @@
+{
+    "name": "image-to-slices",
+    "version": "0.1.4",
+    "main": "dist/underscore.template.js",
+    "ignore": [
+        "**/.*",
+        "test",
+        "lib",
+        "LICENSE",
+        ".travis.yml",
+        "bower.json",
+        "package.json",
+        "README*.md",
+        "gulpfile.js"
+    ]
+}
