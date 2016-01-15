@@ -1,5 +1,5 @@
 /*
- * underscore.template 0.1.3
+ * underscore.template 0.1.5
  * Extracted template from Underscore, use '_.template' without full underscore source.
  * https://github.com/superRaytin/underscore.template
  *

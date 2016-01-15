@@ -1,6 +1,6 @@
 {
   "name": "underscore.template",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Extracted template from Underscore, use '_.template' without full underscore source.",
   "main": "lib/index.js",
   "license": "MIT",
