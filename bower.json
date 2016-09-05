@@ -1,5 +1,5 @@
 {
-    "name": "image-to-slices",
+    "name": "underscore.template",
     "version": "0.1.6",
     "main": "dist/underscore.template.js",
     "ignore": [
