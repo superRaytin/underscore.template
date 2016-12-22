@@ -1,6 +1,6 @@
 {
   "name": "underscore.template",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Extracted template from Underscore, use '_.template' without full underscore source.",
   "main": "lib/index.js",
   "license": "MIT",
@@ -21,7 +21,8 @@
   "author": "Leon Shi",
   "scripts": {
     "lint": "eslint --ext .js lib/index.js",
-    "test": "./node_modules/.bin/mocha ./test/*.js"
+    "test": "./node_modules/.bin/mocha ./test/*.js",
+    "prepublish" : "gulp build"
   },
   "pre-commit": [
     "lint"
